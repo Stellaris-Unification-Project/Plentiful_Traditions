@@ -281,8 +281,6 @@ building_plentiful_traditions_pillar_of_affliction = {
 		NOR = {
 			is_planet_class = pc_machine
 			has_modifier = resort_colony
-		}	
-		NOR = {
 			is_planet_class = pc_habitat
 			has_modifier = slave_colony
 		}
@@ -365,8 +363,6 @@ building_plentiful_traditions_advanced_pillar_of_affliction = {
 		NOR = {
 			is_planet_class = pc_machine
 			has_modifier = resort_colony
-		}	
-		NOR = {
 			is_planet_class = pc_habitat
 			has_modifier = slave_colony
 		}
@@ -449,8 +445,8 @@ building_plentiful_traditions_purification_facility = {
 		NOR = {
 			has_modifier = resort_colony
 			is_planet_class = pc_habitat
+			has_modifier = slave_colony
 		}
-		NOT = { has_modifier = slave_colony }
 		owner = {
 			has_tradition = tr_plentiful_industry_4
 		}
@@ -530,8 +526,8 @@ building_plentiful_traditions_advanced_purification_facility = {
 		NOR = {
 			has_modifier = resort_colony
 			is_planet_class = pc_habitat
+			has_modifier = slave_colony
 		}
-		NOT = { has_modifier = slave_colony }
 		owner = {
 			has_ascension_perk = ap_plentiful_traditions_industrial_mining_excavation
 		}
