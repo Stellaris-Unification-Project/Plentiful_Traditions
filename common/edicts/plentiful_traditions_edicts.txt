@@ -27,10 +27,7 @@ plentiful_traditions_malicious_intent = {
 		weight = 1
 		modifier = {
 			factor = 0
-			NOR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
+			is_authoritarian = no
 		}		
 	}	
 }
@@ -56,10 +53,8 @@ plentiful_traditions_industrial_goods = {
 		modifier = {
 			factor = 0
 			NOR = {
-				has_ethic = ethic_materialist
-				has_ethic = ethic_fanatic_materialist
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
+				is_materialist = yes
+				is_egalitarian = yes
 			}
 		}		
 	}	

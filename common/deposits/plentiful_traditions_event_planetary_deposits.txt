@@ -7,7 +7,7 @@ d_plentiful_traditions_m1_deposit = {
 		}
 	}
 	station = shipclass_mining_station
-	is_for_colonizeable = no
+	is_for_colonizable = no
 	drop_weight = {
 		weight = 0
 	}
@@ -22,14 +22,14 @@ d_plentiful_traditions_miners_deposit = {
 		}
 	}
 	station = shipclass_mining_station
-	is_for_colonizeable = no
+	is_for_colonizable = no
 	drop_weight = {
 		weight = 0
 	}
 }
 
 d_plentiful_traditions_planet_minerals5 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_mineral_fields
@@ -90,7 +90,7 @@ d_plentiful_traditions_planet_minerals5 = {
 }
 
 d_plentiful_traditions_planet_minerals4 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_mineral_fields
@@ -151,7 +151,7 @@ d_plentiful_traditions_planet_minerals4 = {
 }
 
 d_plentiful_traditions_planet_minerals3 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_mineral_fields
@@ -212,7 +212,7 @@ d_plentiful_traditions_planet_minerals3 = {
 }
 
 d_plentiful_traditions_planet_minerals2 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_mineral_fields
@@ -273,7 +273,7 @@ d_plentiful_traditions_planet_minerals2 = {
 }
 
 d_plentiful_traditions_planet_minerals1 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_mineral_fields
@@ -334,7 +334,7 @@ d_plentiful_traditions_planet_minerals1 = {
 }
 
 d_plentiful_traditions_planet_energy5 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_tempestous_mountain
@@ -395,7 +395,7 @@ d_plentiful_traditions_planet_energy5 = {
 }
 
 d_plentiful_traditions_planet_energy4 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_tempestous_mountain
@@ -456,7 +456,7 @@ d_plentiful_traditions_planet_energy4 = {
 }
 
 d_plentiful_traditions_planet_energy3 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_tempestous_mountain
@@ -517,7 +517,7 @@ d_plentiful_traditions_planet_energy3 = {
 }
 
 d_plentiful_traditions_planet_energy2 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_tempestous_mountain
@@ -578,7 +578,7 @@ d_plentiful_traditions_planet_energy2 = {
 }
 
 d_plentiful_traditions_planet_energy1 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_tempestous_mountain
@@ -639,7 +639,7 @@ d_plentiful_traditions_planet_energy1 = {
 }
 
 d_plentiful_traditions_planet_food5 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_fertile_lands
@@ -700,7 +700,7 @@ d_plentiful_traditions_planet_food5 = {
 }
 
 d_plentiful_traditions_planet_food4 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_fertile_lands
@@ -761,7 +761,7 @@ d_plentiful_traditions_planet_food4 = {
 }
 
 d_plentiful_traditions_planet_food3 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_fertile_lands
@@ -822,7 +822,7 @@ d_plentiful_traditions_planet_food3 = {
 }
 
 d_plentiful_traditions_planet_food2 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_fertile_lands
@@ -883,7 +883,7 @@ d_plentiful_traditions_planet_food2 = {
 }
 
 d_plentiful_traditions_planet_food1 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_fertile_lands
@@ -944,7 +944,7 @@ d_plentiful_traditions_planet_food1 = {
 }
 
 d_plentiful_traditions_planet_unity5 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_monument
@@ -967,7 +967,7 @@ d_plentiful_traditions_planet_unity5 = {
 }
 
 d_plentiful_traditions_planet_unity4 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_monument
@@ -990,7 +990,7 @@ d_plentiful_traditions_planet_unity4 = {
 }
 
 d_plentiful_traditions_planet_unity3 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_monument
@@ -1013,7 +1013,7 @@ d_plentiful_traditions_planet_unity3 = {
 }
 
 d_plentiful_traditions_planet_unity2 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_monument
@@ -1036,7 +1036,7 @@ d_plentiful_traditions_planet_unity2 = {
 }
 
 d_plentiful_traditions_planet_unity1 = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 	
 	icon = d_monument

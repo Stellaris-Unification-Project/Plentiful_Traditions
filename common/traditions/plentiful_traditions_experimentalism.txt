@@ -19,17 +19,11 @@ tr_plentiful_experimentalism_adopt = {
 		}
 		modifier = {
 			factor = 2
-			OR = {
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-			}
+			is_pacifist = yes
 		}
 		modifier = {
 			factor = -5
-			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
-			}
+			is_spiritualist = yes
 		}
 	}
 }

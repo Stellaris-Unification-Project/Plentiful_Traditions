@@ -218,8 +218,10 @@ building_plentiful_traditions_syndicate_quarters = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_tradition = tr_plentiful_kleptocracy_5
 		}

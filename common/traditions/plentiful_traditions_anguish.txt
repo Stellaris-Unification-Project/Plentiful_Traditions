@@ -35,12 +35,9 @@ tr_plentiful_anguish_adopt = {
 		modifier = {
 			factor = -5
 			OR = {
-				has_ethic = ethic_xenophile
-				has_ethic = ethic_fanatic_xenophile
-				has_ethic = ethic_pacifist
-				has_ethic = ethic_fanatic_pacifist
-				has_ethic = ethic_egalitarian
-				has_ethic = ethic_fanatic_egalitarian
+				is_xenophile = yes
+				is_pacifist = yes
+				is_egalitarian = yes
 				
 			}
 		}

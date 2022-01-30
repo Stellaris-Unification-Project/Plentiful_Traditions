@@ -418,7 +418,7 @@ is_at_war = yes
 Supported Scopes: country
 Supported Targets: none
 
-count_diplo_ties - Checks the number of diplomatic in the scope that fulfill the specified criteria
+count_relation - Checks the number of diplomatic in the scope that fulfill the specified criteria
 count_countries = { count < 6 limit = { <triggers> } }
 Supported Scopes: country
 Supported Targets: none
@@ -1077,8 +1077,8 @@ is_advisor_active - checks if a country has an advisor
 Supported Scopes: country
 Supported Targets: none
 
-count_pops - Checks the number of pops in the scope that fulfill the specified criteria
-count_pops = { limit = { <triggers> } count < 6 }
+count_owned_pop - Checks the number of pops in the scope that fulfill the specified criteria
+count_owned_pop = { limit = { <triggers> } count < 6 }
 Supported Scopes: planet species pop_faction
 Supported Targets: none
 
@@ -1438,8 +1438,8 @@ has_faction = planet_separatists
 Supported Scopes: country
 Supported Targets: none
 
-count_owned_pops - Count the number of owned pops in the country that fulfill the specified criteria
-count_owned_pops = { limit = { <triggers> } count > 12 }
+count_owned_pop - Count the number of owned pops in the country that fulfill the specified criteria
+count_owned_pop = { limit = { <triggers> } count > 12 }
 Supported Scopes: planet country pop_faction
 Supported Targets: none
 
@@ -1481,13 +1481,13 @@ num_taken_planets = { target = <target> value > 1 }
 Supported Scopes: country
 Supported Targets: ???
 
-count_ships - Checks the number of ships in the galaxy that meet the specified criteria
-count_ships = { limit = { <triggers> } count < 20 }
+count_fleet_in_system - Checks the number of ships in the galaxy that meet the specified criteria
+count_fleet_in_system = { limit = { <triggers> } count < 20 }
 Supported Scopes: all
 Supported Targets: ???
 
-count_owned_ships - Checks the country's number of ships that meet the specified criteria
-count_owned_ships = { limit = { <triggers> } count < 20 }
+count_owned_ship - Checks the country's number of ships that meet the specified criteria
+count_owned_ship = { limit = { <triggers> } count < 20 }
 Supported Scopes: country
 Supported Targets: ???
 
@@ -2088,8 +2088,8 @@ happiness_planet < 60
 Supported Scopes: planet
 Supported Targets: none
 
-count_fleet_ships - Checks the number of ships in the fleet that meet the specified criteria
-count_fleet_ships = { limit = { <triggers> } count > 15 }
+count_owned_ship - Checks the number of ships in the fleet that meet the specified criteria
+count_owned_ship = { limit = { <triggers> } count > 15 }
 Supported Scopes: fleet
 Supported Targets: ???
 
@@ -2266,8 +2266,8 @@ has_living_standard = { country = <who> type = <type> }
 Supported Scopes: pop leader species
 Supported Targets: none
 
-count_planets - Checks the planets in system that meet the criteria
-count_planets = { limit = { <triggers> } count < 2 }
+count_system_planet  - Checks the planets in system that meet the criteria
+count_system_planet  = { limit = { <triggers> } count < 2 }
 Supported Scopes: galactic_object
 Supported Targets: none
 
@@ -4650,7 +4650,6 @@ change_species_characteristics = {
 	can_be_modified = <Y/N, determines if the species can be modified>
 	pops_auto_growth = <1, speed at which the pops from that species grow automatically
 	pop_maintenance = <1, amount of energy each pop of that species consume monthly
-	new_pop_resource_requirement = { type = food_surplus value = 42 }
 	portrait = <key or species event target>
 
 Supported Scopes: species
@@ -5364,7 +5363,7 @@ Supported Scopes: galactic_object
 Supported Targets: none
 
 surveyed - Sets the planet as un/surveyed by target country
-surveyed = { set_surveyed = yes surveyor = <target> }
+surveyed = { surveyed = yes surveyor = <target> }
 Supported Scopes: planet
 Supported Targets: none
 

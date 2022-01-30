@@ -28,18 +28,13 @@ tr_plentiful_affinity_adopt = {
 		modifier = {
 			factor = -2
 			OR = {
-				has_ethic = ethic_militarist
-				has_ethic = ethic_fanatic_militarist
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
+				is_militarist = yes
+				is_authoritarian = yes
 			}
 		}
 		modifier = {
 			factor = -5
-			OR = {
-				has_ethic = ethic_xenophobe
-				has_ethic = ethic_fanatic_xenophobe
-			}
+			is_xenophobe = yes
 		}
 	}
 }

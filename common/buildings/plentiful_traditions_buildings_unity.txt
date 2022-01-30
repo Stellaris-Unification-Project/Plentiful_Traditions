@@ -109,8 +109,10 @@ building_plentiful_traditions_citadel_of_motion = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_active_tradition = tr_plentiful_faith_finish_machine
 		}
@@ -206,8 +208,10 @@ building_plentiful_traditions_house_of_prayer = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_active_tradition = tr_plentiful_faith_finish
 		}
@@ -320,8 +324,10 @@ building_plentiful_traditions_sanctum_of_keys = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_active_tradition = tr_plentiful_mysticism_5
 		}
@@ -400,8 +406,10 @@ building_plentiful_traditions_sanctum_of_the_collective = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_active_tradition =  tr_plentiful_mysticism_5_machine
 		}

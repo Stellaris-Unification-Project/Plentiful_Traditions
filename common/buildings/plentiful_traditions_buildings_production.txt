@@ -10,8 +10,10 @@ building_plentiful_traditions_trading_terminal = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			OR = {
 				has_active_tradition = tr_plentiful_aspiration_gestalt_finish
@@ -103,8 +105,10 @@ building_plentiful_traditions_advanced_trading_terminal = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_ascension_perk = ap_plentiful_traditions_trade_empire
 		}
@@ -188,8 +192,10 @@ building_plentiful_traditions_trading_depot = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_tradition = tr_plentiful_aspiration_4
 		}
@@ -272,10 +278,14 @@ building_plentiful_traditions_pillar_of_affliction = {
 	
 	potential = {
 		exists = owner
-		NOT = { is_planet_class = pc_machine }
-		NOT = { has_modifier = resort_colony }	
-		NOT = { is_planet_class = pc_habitat }
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			is_planet_class = pc_machine
+			has_modifier = resort_colony
+		}	
+		NOR = {
+			is_planet_class = pc_habitat
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_tradition = tr_plentiful_mutagenesis_4
 		}
@@ -352,10 +362,14 @@ building_plentiful_traditions_advanced_pillar_of_affliction = {
 	
 	potential = {
 		exists = owner
-		NOT = { is_planet_class = pc_machine }
-		NOT = { has_modifier = resort_colony }	
-		NOT = { is_planet_class = pc_habitat }
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			is_planet_class = pc_machine
+			has_modifier = resort_colony
+		}	
+		NOR = {
+			is_planet_class = pc_habitat
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_ascension_perk = ap_plentiful_traditions_food_is_life
 		}
@@ -432,8 +446,10 @@ building_plentiful_traditions_purification_facility = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { is_planet_class = pc_habitat }
+		NOR = {
+			has_modifier = resort_colony
+			is_planet_class = pc_habitat
+		}
 		NOT = { has_modifier = slave_colony }
 		owner = {
 			has_tradition = tr_plentiful_industry_4
@@ -511,8 +527,10 @@ building_plentiful_traditions_advanced_purification_facility = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { is_planet_class = pc_habitat }
+		NOR = {
+			has_modifier = resort_colony
+			is_planet_class = pc_habitat
+		}
 		NOT = { has_modifier = slave_colony }
 		owner = {
 			has_ascension_perk = ap_plentiful_traditions_industrial_mining_excavation
@@ -590,8 +608,10 @@ building_plentiful_traditions_obelisk0 = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			NOT = {
 				has_authority = auth_machine_intelligence
@@ -664,8 +684,10 @@ building_plentiful_traditions_obelisk1 = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_tradition = tr_plentiful_mysticism_1
 		}
@@ -736,8 +758,10 @@ building_plentiful_traditions_obelisk2 = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_tradition = tr_plentiful_mysticism_2
 		}
@@ -808,8 +832,10 @@ building_plentiful_traditions_obelisk3 = {
 	
 	potential = {
 		exists = owner
-		NOT = { has_modifier = resort_colony }	
-		NOT = { has_modifier = slave_colony }
+		NOR = {
+			has_modifier = resort_colony
+			has_modifier = slave_colony
+		}
 		owner = {
 			has_tradition = tr_plentiful_mysticism_3
 		}

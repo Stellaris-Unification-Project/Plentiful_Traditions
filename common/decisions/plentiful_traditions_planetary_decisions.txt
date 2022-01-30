@@ -194,7 +194,7 @@ plentiful_traditions_plentiful_deeds = {
 #					is_primitive = no
 #					has_communications = root.owner
 #					NOR = {
-#						is_same_value = root.owner
+#						is_same_empire = root.owner
 #						is_same_species = root.owner
 #					}
 #				}

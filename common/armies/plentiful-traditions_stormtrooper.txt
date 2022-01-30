@@ -195,12 +195,9 @@ tank_army = {
 		custom_tooltip = {
 			text = tank_army_troop_limit_tooltip
 			owner = {
-				NOT = { 
-					 check_variable = {
+				check_variable = {
 						which = "tank_army_troop_count" 
-						value = 9
-					}
-				}
+						value != 9 }
 			}
 		}
 	}
